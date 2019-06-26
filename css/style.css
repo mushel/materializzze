@@ -1,0 +1,127 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+ @font-face {
+  font-family: "Boxer";
+  src: url(BoxerScriptJF.ttf);
+}
+body {
+  color: #7D816F;
+  background: #020609;
+  font-family: 'Comfortaa', cursive;
+}
+h1, h2, h3, h4 {
+  font-family: "Boxer";
+  font-weight: 400;
+}
+h5, h6, p {
+  font-family: 'Comfortaa', cursive;
+}
+h1, h3 {
+  color: #898128;
+}
+h2, h5, button {
+  color: #E3A25D;
+}
+nav ul a,
+nav .brand-logo {
+  color: #444;
+  font-family: "Boxer";
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+.container {
+  margin-right: 15px;
+}
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+.parallax-container .section {
+  width: 100%;
+}
+.rev-nav, .cart-wrapper {
+  display: flex;
+  background: transparent;
+  width: 310px;
+  position: fixed;
+  margin-left: -.75rem;
+  z-index: 1;
+}
+.rev-nav .nav-wrapper{
+  background: #898128;
+  border-top-left-radius: 54px;
+  height: 260px;
+  width: 100%;
+  padding-top: 22px;
+}  
+.rev-nav-tri {
+  width: 0;
+  height: 0;
+  border-top: 260px solid #898128;
+  border-right: 60px solid transparent;
+}
+.cart {
+  background: #898128;
+}
+.cart-trap {
+  border-right: 20px solid transparent;
+  border-top: 100px solid red;
+  height: 0;
+  width: 300px;
+}
+header h1 {
+  margin-top: .8rem;
+}
+nav ul a {
+  padding-left: 44px;
+}
+nav {
+  line-height: 54px;
+}
+footer {
+  background: url("../img/snakeTxtr.png") no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+footer .container {
+  margin-right: auto;
+}
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
